@@ -1,4 +1,14 @@
 {
-  "presets": [["env", { "modules": false }], "react"],
-  "plugins": ["transform-object-rest-spread", "react-hot-loader/babel"]
+  "plugins": ["transform-object-rest-spread", "react-hot-loader/babel"],
+  "env": {
+    "test": {
+      "presets": ["env", "react"]
+    },
+    "development": {
+      "presets": [["env", { "modules": false }], "react"]
+    },
+    "production": {
+      "presets": ["env", "react"]
+    }
+  }
 }
