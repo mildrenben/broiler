@@ -1,4 +1,4 @@
-# Boiler18
+# Broiler
 A front end boilerplate using Webpack, Babel (ES8), React, React Router, Styled Components, Jest + Enzyme, ESLint, and Hot Module Reloading.
 
 ## Requirements
