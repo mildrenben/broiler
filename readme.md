@@ -8,7 +8,7 @@ A front end boilerplate using Webpack, Babel (ES8), React, React Router, Styled 
 ## Get started
 
 ```
-git clone https://github.com/placeholder your-project
+git clone https://github.com/mildrenben/broiler.git your-project
 
 cd your-project
 
