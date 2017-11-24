@@ -16,8 +16,12 @@ rm -rf .git
 
 yarn install
 
+git init
+
 yarn start
 ```
+
+Head over to `localhost:8080`.
 
 There are already some routes and components created as an example!
 
