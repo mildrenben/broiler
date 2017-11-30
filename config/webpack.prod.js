@@ -7,6 +7,7 @@ const common = require('./webpack.common.js')
 
 module.exports = merge(common, {
 	entry: {
+		poly: 'babel-polyfill',
 		app: path.join(constants.SRC, 'app.js'),
 		// Example of code splitting out major dependencies (see line 24-26 also)
 		vendor: [

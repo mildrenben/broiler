@@ -7,6 +7,7 @@ const common = require('./webpack.common.js')
 module.exports = merge(common, {
 	entry: [
 		'react-hot-loader/patch',
+		'babel-polyfill',
 		path.join(constants.SRC, 'app.js'),
 	],
 	plugins: [
