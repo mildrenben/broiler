@@ -43,4 +43,4 @@ There are already some routes and components created as an example!
 
 ### Caveats
 
-- Styled components v2.2.1-2.2.3 has a bug preventing HMR. So we're currently on 2.2.0 until this issue is fixed. [Issue on Github](https://github.com/styled-components/styled-components/pull/1280).
+None right now. Raise an issue if you find any.
