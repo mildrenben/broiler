@@ -11,7 +11,11 @@ module.exports = merge(common, {
 		app: path.join(constants.SRC, 'app.js'),
 		// Example of code splitting out major dependencies (see line 24-26 also)
 		vendor: [
-			'react'
+			'react',
+			'react-dom',
+			'react-router-dom',
+			'prop-types',
+			'styled-components'
 		]
 	},
 	plugins: [
