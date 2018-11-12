@@ -16,8 +16,7 @@ module.exports = {
 		new webpack.NamedModulesPlugin()
 	],
 	output: {
-		path: constants.DIST,
-		publicPath: '/'
+		path: constants.DIST
 	},
 	module: {
 		rules: [
