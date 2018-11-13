@@ -25,7 +25,10 @@ const Routes = () => (
 )
 
 const Router = () => (
-	<BrowserRouter basename='/broiler'>
+	// If you're using a sub directory or Github Pages then use the 
+	// following to specify the base name
+	// <BrowserRouter basename='/broiler'>
+	<BrowserRouter>
 		<Routes />
 	</BrowserRouter>
 )
