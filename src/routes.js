@@ -25,7 +25,7 @@ const Routes = () => (
 )
 
 const Router = () => (
-	<BrowserRouter>
+	<BrowserRouter basename='/broiler'>
 		<Routes />
 	</BrowserRouter>
 )
